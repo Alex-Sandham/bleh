@@ -1,2 +1,4 @@
 # Alex-Sandham.github.io
-hello
+Webpage Live
+Updated moresby.html to include correct pictures
+Updated la.html to attempt to fix pictures
