@@ -1,0 +1,143 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: comfortaa, sans-serif;
+}
+
+li a:hover {
+    background-color: #111;
+	font-family: comfortaa, sans-serif;
+}
+.active {
+    background-color: #008080;
+}
+
+img {
+	width: 300px;
+	height: auto;
+	margin: auto;
+	float: left;
+	padding-right: 10px;
+}
+h1 {
+	color: white;
+	text-align: center;
+	background-color: #333;
+	font-family: comfortaa, sans-serif;
+	}
+ins {
+	color: white;
+	text-align: center;
+	background-color: #333;
+	font-family: comfortaa, sans-serif;
+	}
+table, th, td {
+	border: 4px solid black;
+	font-family: comfortaa, sans-serif;
+	padding: 10px
+}
+#panel {
+	background-color: white;
+	width: 100%;
+	float: left;
+	margin-bottom: 200px;
+	padding: 6px;
+	border: solid, black, 1px;
+	font-family: comfortaa, sans-serif;
+}
+ #pback {
+    line-height: 205px;
+ }
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+	background-image: url("images/tokyo.jpg");
+	min-height: 50%
+}
+.bgimg-2 {
+	background-image: url("images/rome.jpg");
+	min-height: 50%
+}
+.bgimg-3 {
+	background-image: url("images/LA.jpg");
+	min-height: 50%
+}
+.bgimg-4 {
+	background-image: url("images/uae.jpg");
+	min-height: 50%
+}
+	.bgimg-5 {
+	background-image: url("images/portmoresby.jpg");
+	min-height: 50%
+}
+.bgimg-6 {
+	background-image: url("images/santorini.jpg");
+	min-height: 50%
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+#panel1 {
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 100%;
+	float: left;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: solid, black, 1px;
+	font-family: comfortaa, sans-serif;
+}
